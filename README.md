@@ -55,15 +55,16 @@ module.exports = {
   // ...
  }
 }
-
-##
-### string
+```
+## 设置代理
+```
+//string
 module.exports = {
  devServer: {
   proxy: '<url>'
  }
 }
-### Object
+//Object
 module.exports = {
  devServer: {
   proxy: {
