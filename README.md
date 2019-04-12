@@ -1,17 +1,17 @@
 # vue-cli3-webpack
 ## vue.config.js完整默认配置
 module.exports = {
- // 基本路径
+ * 基本路径
  baseUrl: '/',
- // 输出文件目录
+ * 输出文件目录
  outputDir: 'dist',
- // eslint-loader 是否在保存的时候检查
+ * eslint-loader 是否在保存的时候检查
  lintOnSave: true,
- // use the full build with in-browser compiler?
- // https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+ * use the full build with in-browser compiler?
+ * https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
  compiler: false,
- // webpack配置
- // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
+ * webpack配置
+ see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
  chainWebpack: () => {},
  configureWebpack: () => {},
  // vue-loader 配置项
